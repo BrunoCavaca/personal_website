@@ -12,6 +12,15 @@ import baseimage from "/src/assets/project_imgs/base_image.png";
 export default function Projects() {
   const projectData = [
     {
+      projectName: "Machine Learning Project Portfolio",
+      projectDescription:
+        "The start of my experimentation with Machine Learning using Python. Some models included (but not limited to) are Lung Cancer Predictor, and Titanic Survival Predictor.",
+      languagesUsed: ["Python",],
+      githubLink: "https://github.com/BrunoCavaca/Machine-Learning-Projects",
+      liveDemo: "",
+      imgPreview: [],
+    },
+    {
       projectName: "Portfolio Website",
       projectDescription:
         "The very website you are on! A portfolio built with React, Tailwind, and Framer Motion to showcase my work.",
