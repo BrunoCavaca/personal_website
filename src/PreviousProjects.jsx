@@ -8,9 +8,22 @@ import tiagostart from "/src/assets/project_imgs/tiago_start.jpg";
 import tiagointeracting from "/src/assets/project_imgs/tiago_interacting.jpg";
 import tiagodelivery from "/src/assets/project_imgs/tiago_delivery.png";
 import baseimage from "/src/assets/project_imgs/base_image.png";
+import chatbotA from "/src/assets/project_imgs/chatbot-A.png";
+import chatbotB from "/src/assets/project_imgs/chatbot-B.png";
+import chatbotC from "/src/assets/project_imgs/chatbot-C.png";
+
 
 export default function Projects() {
   const projectData = [
+    {
+      projectName: "CouncilBot: A RAG Chatbot Solution for Council Information Access",
+      projectDescription:
+        "A bespoke RAG System using scraped council website data to create a multi-language accepting chatbot. Pending WhatsApp Business Integration",
+      languagesUsed: ["Python","React"],
+      githubLink: "",
+      liveDemo: "",
+      imgPreview: [chatbotA,chatbotB,chatbotC],
+    },
     {
       projectName: "Machine Learning Project Portfolio",
       projectDescription:
